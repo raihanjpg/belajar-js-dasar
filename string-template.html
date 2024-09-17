@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const name = "Raihan arif Rahman";
+        const firstName = "Raihan";
+        const middleName = "Arif";
+        const lastName = "Rahman";
+
+
+        const template = `Name : ${firstName} ${middleName} ${lastName}`;
+        const lama = "Name : " + firstName + " " + middleName + " " + lastName;
+
+        console.info(template);
+
+        const nilai = 98;
+        const template2 = `Name : ${name}, LULUS : ${nilai> 70}`;
+
+        console.info(template2);
+
+        const multiline = `Nama Saya Raihan,
+        Sekarang Nganggur,
+        Sering Juga Juala Jersey,
+        Kalo Lagi Males, Paling Umroh`;
+
+        document.writeln("<pre>")
+        document.writeln(multiline);
+        document.writeln("</pre>")
+    </script>
+</body>
+
+</html>

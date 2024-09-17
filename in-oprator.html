@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const person = {
+            fristName: "HAN",
+            lastName: "ARIF"
+        }
+
+        if ("fristName" in person) {
+            alert(`Hello ${person.fristName}`)
+
+        } else {
+            alert("Hello")
+        }
+        const student = {
+            fristName: "Raihan",
+            middleName: undefined,
+            lastName: "Rahman"
+        }
+        if ("middleName" in student) {
+            alert(`Hello ${student.middleName}`)
+
+        } else {
+            alert("Hello student")
+        }
+
+        const names = [null, "Raihan", null]
+        const result = 0 in names
+        document.writeln(`<p>${result}</p>`)
+    </script>
+</body>
+
+</html>
